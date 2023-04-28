@@ -1,0 +1,21 @@
+{
+  "name": "@welib/express-webfs",
+  "version": "0.0.0-alpha1",
+  "description": "Express.js middleware to handle GET, PUT, DELETE",
+  "type": "module",
+  "exports": {
+    ".": "./src/middleware.js",
+    "./lib": "./webfs.js"
+  },
+  "scripts": {
+    "test": "echo no tests defined"
+  },
+  "dependencies": {
+    "bytesized": "^2.0.0",
+    "mime-db": "^1.52.0",
+    "mkdirp": "^3.0.1"
+  },
+  "peerDependencies": {
+    "express": "*"
+  }
+}
